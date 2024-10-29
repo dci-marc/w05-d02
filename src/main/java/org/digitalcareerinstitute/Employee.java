@@ -87,6 +87,13 @@ public class Employee {
         return salaryBonus;
     }
 
+    /**
+     * Calculate bonus based on parts assembled
+     *
+     * @param partsAssembled parts assembled
+     * @param employeeType   employee type
+     * @return bonus or no bonus
+     */
     public static double calculateBonus(int partsAssembled, int employeeType) {
         float bonus = 0.025F;
         float salaryBonus = 0;
